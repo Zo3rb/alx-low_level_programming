@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauuer - Entry point
+ * jack_bauer - Entry point
  *
  * Description: prints every minute of the day of Jack Bauer,
  * starting from "00:00" to "23:59".
@@ -15,7 +15,7 @@ void jack_bauer(void)
 	while (hr <= 23)
 	{
 		min = 0;
-		
+
 		while (min <= 59)
 		{
 			_putchar((hr / 10) + 48);
