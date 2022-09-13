@@ -4,7 +4,7 @@
  * _islower - Entry point
  *
  * Description: checks for lowercase character.
- * @C: character's binary code (number).
+ * @c: character's binary code (number).
  *
  * Return: 1 if C is lower and 0 if not.
  */
