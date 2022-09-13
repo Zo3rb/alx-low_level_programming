@@ -7,13 +7,12 @@
  *
  * Return: Always 0 (Success)
 */
-int main (void)
+int main(void)
 {
-	char c[9] = "putchar";
+	char c[10] = "_putchar";
 	int i = 0;
 
-	_putchar('_');
-	while(i < 8)
+	while (i < 10)
 	{
 		_putchar(c[i]);
 		i++;
