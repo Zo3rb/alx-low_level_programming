@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * more_numbers - Entery point.
  *
