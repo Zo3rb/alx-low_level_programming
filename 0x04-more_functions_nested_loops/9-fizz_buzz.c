@@ -5,7 +5,7 @@
  *
  * Description: FizzBuzz Test.
  *
- * Return: Always 0.
+ * Return: Nothing.
  */
 int main(void)
 {
@@ -24,4 +24,6 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
+
+	return (0);
 }
