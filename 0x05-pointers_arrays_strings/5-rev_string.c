@@ -8,25 +8,21 @@
  */
 void rev_string(char *s)
 {
-	/* Get The Lengh of s */
-	int strL = 1;
+	int len, i, half;
+	char temp;
 
-	while (s[strL] != '\0')
+	for (len = 0; s[len] != '\0'; len++)
+		;
+
+	i = 0;
+
+	half = len / 2;
+
+	while (half--)
 	{
-		strL++;
+		temp = s[len - i - 1];
+		s[len - i - 1] = s[i];
+		s[i] = temp;
+		i++;
 	}
-
-	/* Create Temp String (Reversed) */
-	char temp[strL];
-	int i = 0;
-
-	while (strL > 0)
-	{
-		temp[i] = s[strL];
-		strL--;
-		i++
-	}
-
-	/* Reassign */
-	s = temp;
 }
