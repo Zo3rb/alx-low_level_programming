@@ -14,5 +14,6 @@ int main(int argc, char *argv[])
 {
 	printf("%s\n", arv[0]);
 
+	(void) argc;
 	return (0);
 }
